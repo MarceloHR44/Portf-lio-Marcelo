@@ -38,7 +38,7 @@
 }
 
 .blue {
-  filter: invert(39%) sepia(42%) saturate(6653%) hue-rotate(181deg) brightness(93%) contrast(84%); /*invert(69%) before, but too dark*/
+  filter: invert(39%) sepia(42%) saturate(6653%) hue-rotate(181deg) brightness(93%) contrast(84%);  /*invert(69%) before, but too dark */
 }
 
 .green {

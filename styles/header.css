@@ -3,8 +3,37 @@
   background: url(../assets/images/Background_Intro.png) no-repeat center center/cover;
   text-align: center;
   margin-top: 80px;
+  height: 750px;
+  width: 1366px;
 
   img {
       margin-inline: auto;
   }
+}
+
+#info {
+  gap: 5rem;
+}
+
+#top-header {
+  gap: 3.5rem;
+  max-width: 42.5rem;
+  margin-inline: auto;
+
+  img {
+      margin-inline: auto;
+  }
+
+  & > div {
+      gap: 1.5rem;
+  }
+
+  h1 {
+      color: var(--gray-600);
+  }
+
+  p:nth-child(2) {
+      color: var(--gray-400);
+  }
+
 }

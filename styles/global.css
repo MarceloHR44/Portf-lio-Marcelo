@@ -29,15 +29,12 @@ body {
   background-color: var(--gray-400);
   color: var(--gray-500);
   width: 50%;
-  margin: 0 auto;
-  max-width: 1366px;
-  max-width: 750px;
-  
+  margin: 0 auto; 
 }
 
 .container {
-  min-width: 85.375rem;
-  max-width: 100%;
+  max-height: 750px;
+  max-width: 1366px;
   margin-inline: auto;
   justify-content: center;
 }
@@ -49,11 +46,12 @@ body {
 .tag {
   justify-content: center;
   align-items: center;
-  gap: 0.1rem;
+  gap: 0.5rem;
   background-color: var(--gray-300);
-  padding: 0.3rem 1rem;
+  padding: 5px 10px;
   border-radius: 80px;
   margin: 15px;
+  height: 45px;
 }
 
 .card {
@@ -71,5 +69,14 @@ body {
 
   &:hover {
       border-color: var(--gray-400);
+  }
+}
+
+.heading {
+  gap: 1rem;
+  text-align: center;
+
+  h2 {
+      color: var(--gray-600);
   }
 }
