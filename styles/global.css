@@ -54,6 +54,15 @@ body {
   height: 45px;
 }
 
+.heading {
+  gap: 1rem;
+  text-align: center;
+
+  h2 {
+      color: var(--gray-600);
+  }
+}
+
 .card {
   gap: 1.25rem;
   background-color: var(--gray-300);
@@ -72,11 +81,4 @@ body {
   }
 }
 
-.heading {
-  gap: 1rem;
-  text-align: center;
 
-  h2 {
-      color: var(--gray-600);
-  }
-}
