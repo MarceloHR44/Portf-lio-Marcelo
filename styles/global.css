@@ -30,13 +30,28 @@ body {
   color: var(--gray-500);
   width: 50%;
   margin: 0 auto;
+  max-width: 1366px;
   max-width: 750px;
-  max-height: 1280px;
+  
 }
 
 .container {
-  min-width: 750px;
+  min-width: 85.375rem;
   max-width: 100%;
   margin-inline: auto;
   justify-content: center;
+}
+
+.title {
+  gap: .5rem;
+}
+
+.tag {
+  justify-content: center;
+  align-items: center;
+  gap: 0.1rem;
+  background-color: var(--gray-300);
+  padding: 0.3rem 1rem;
+  border-radius: 80px;
+  margin: 15px;
 }
