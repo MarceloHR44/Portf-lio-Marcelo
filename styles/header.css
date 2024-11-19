@@ -1,0 +1,10 @@
+#intro {
+  gap: 5.875rem;
+  background: url(../assets/images/Background_Intro.png) no-repeat center center/cover;
+  text-align: center;
+  margin-top: 80px;
+
+  img {
+      margin-inline: auto;
+  }
+}

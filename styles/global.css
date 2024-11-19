@@ -27,7 +27,16 @@
 
 body {
   background-color: var(--gray-400);
-  color: var(--gray-200);
+  color: var(--gray-500);
   width: 50%;
   margin: 0 auto;
+  max-width: 750px;
+  max-height: 1280px;
+}
+
+.container {
+  min-width: 750px;
+  max-width: 100%;
+  margin-inline: auto;
+  justify-content: center;
 }
