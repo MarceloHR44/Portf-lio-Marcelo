@@ -29,3 +29,22 @@
 .text-sm {
   font: var(--text-sm);
 }
+.red {
+  filter: invert(32%) sepia(55%) saturate(7459%) hue-rotate(328deg) brightness(119%) contrast(78%); /*invert(62%) before, but too dark*/
+}
+
+.purple {
+  filter: invert(54%) sepia(26%) saturate(1358%) hue-rotate(228deg) brightness(98%) contrast(87%);
+}
+
+.blue {
+  filter: invert(39%) sepia(42%) saturate(6653%) hue-rotate(181deg) brightness(93%) contrast(84%); /*invert(69%) before, but too dark*/
+}
+
+.green {
+  filter: invert(19%) sepia(64%) saturate(393%) hue-rotate(48deg) brightness(90%) contrast(80%); /*invert(69%) before, but too dark*/
+}
+
+.yellow {
+  filter: invert(20%) sepia(100%) saturate(290%) hue-rotate(348deg) brightness(99%) contrast(85%); /*invert(70%) before, but too dark*/
+}
