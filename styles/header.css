@@ -2,9 +2,7 @@
   gap: 5.875rem;
   background: url(../assets/images/Background_Intro.png) no-repeat center center/cover;
   text-align: center;
-  margin-top: 80px;
-  height: 750px;
-  width: 1366px;
+  margin-top: 120px;
 
   img {
       margin-inline: auto;
@@ -41,4 +39,3 @@
 #tag-list {
   gap: 1rem;
 }
-

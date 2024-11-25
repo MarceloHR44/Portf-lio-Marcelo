@@ -17,24 +17,23 @@
   --gray-500: #C0C4CE;
   --gray-600: #E2E4E9;
 
-  --title-lg: 600 56px/120% "Asap", sans-serif;  
-  --title-md: 600 24px/120% "Asap", sans-serif;
-  --title-sm: 600 16px/120% "Asap", sans-serif;
-  --subtitle: 500 20px/120% "Inconsolata", monospace;
-  --text-md: 500 16px/140% "Maven Pro", sans-serif;
-  --text-sm: 500 14px/140% "Maven Pro", sans-serif;
+  --title-lg: 700 3.5rem/120% "Asap", sans-serif;
+  --title-md: 700 1.5rem/120% "Asap", sans-serif;
+  --title-sm: 700 1rem/120% "Asap", sans-serif;
+  --subtitle: 400 1.25rem/120% "Inconsolata", monospace;
+  --text-md: 400 1rem/140% "Maven Pro", sans-serif;
+  --text-sm: 400 0.875rem/140% "Maven Pro", sans-serif;
 }
 
 body {
-  background-color: var(--gray-100);
+  background-color: var(--gray-200);
   color: var(--gray-500);
-  width: 50%;
-  margin: 0 auto; 
+  width: 100%;
 }
 
 .container {
-  max-height: 750px;
-  max-width: 1366px;
+  min-width: 85.375rem;
+  max-width: 100%;
   margin-inline: auto;
   justify-content: center;
 }
@@ -46,12 +45,10 @@ body {
 .tag {
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
   background-color: var(--gray-300);
-  padding: 5px 10px;
-  border-radius: 80px;
-  margin: 15px;
-  height: 45px;
+  padding: .5rem 1.5rem;
+  border-radius: 999px;
 }
 
 .heading {
@@ -79,6 +76,11 @@ body {
   &:hover {
       border-color: var(--gray-400);
   }
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray-500);
 }
 
 
